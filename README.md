@@ -29,11 +29,10 @@ This dataset was build by augmenting datasets of rainfall, climate and fertilize
  * **Training and Validation**
     * GausianNB gets a higher accuracy score than other classification models.
     * GaussianNB ( 99 % accuracy score )
- * **Fine Tuning**
-    * Using {'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.7} for Gradient Boosting Classifier improved the accuracy by 1 %.
  * **Performance Results**
-    * Validation Score: 97%
-    * ROC_AUC Score: 96.9 %
+    * Training Score: 99.5%
+    * Validation Score: 99.3%
+
  
 # Demo
 
