@@ -37,7 +37,7 @@ This dataset was build by augmenting datasets of rainfall, climate and fertilize
 
  
 # Demo
-
+![](https://i.imgur.com/TnsSPQy.png)
 
 # References
 * https://www.prolim.com/crop-recommendation-system-using-machine-learning-for-digital-farming/
