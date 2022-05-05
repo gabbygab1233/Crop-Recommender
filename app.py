@@ -6,7 +6,7 @@ import pickle
 import warnings
 
 
-st.beta_set_page_config(page_title="Crop Recommender", page_icon="🌿", layout='centered', initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Crop Recommender", page_icon="🌿", layout='centered', initial_sidebar_state="collapsed")
 
 def load_model(modelfile):
 	loaded_model = pickle.load(open(modelfile, 'rb'))
@@ -21,10 +21,10 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html=True)
 
-    col1,col2  = st.beta_columns([2,2])
+    col1,col2  = st.columns([2,2])
     
     with col1: 
-        with st.beta_expander(" ℹ️ Information", expanded=True):
+        with st.expander(" ℹ️ Information", expanded=True):
             st.write("""
             Crop recommendation is one of the most important aspects of precision agriculture. Crop recommendations are based on a number of factors. Precision agriculture seeks to define these criteria on a site-by-site basis in order to address crop selection issues. While the "site-specific" methodology has improved performance, there is still a need to monitor the systems' outcomes.Precision agriculture systems aren't all created equal. 
             However, in agriculture, it is critical that the recommendations made are correct and precise, as errors can result in significant material and capital loss.
